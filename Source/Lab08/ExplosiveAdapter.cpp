@@ -2,6 +2,7 @@
 
 
 #include "ExplosiveAdapter.h"
+#include "BalaCanon.h"
 
 // Sets default values
 AExplosiveAdapter::AExplosiveAdapter()
@@ -16,7 +17,7 @@ void AExplosiveAdapter::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	BC = GetWorld()->SpawnActor<ABalaCanon>(ABalaCanon::StaticClass());
+	BC = GetWorld()->SpawnActor<ABalaCanon>(ABalaCanon::StaticClass(), FVector(-770.0f, 10.0f, 180.0f), FRotator::ZeroRotator);
 }
 
 // Called every frame
@@ -28,6 +29,12 @@ void AExplosiveAdapter::Tick(float DeltaTime)
 
 void AExplosiveAdapter::Explosive()
 {
-	BC->Mover();
+	if (!BC)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("BC is null, no se spawneo a la clase extranjera"));
+		return;
+	}
+	BC->Mover(); 
 }
+
 

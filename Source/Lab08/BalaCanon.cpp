@@ -18,7 +18,7 @@ ABalaCanon::ABalaCanon()
 
 	RootComponent = BombaMesh; 
 
-	velocidad = 100.0f; 
+	velocidad = 500.0f; 
 }
 
 // Called when the game starts or when spawned
@@ -37,7 +37,12 @@ void ABalaCanon::Tick(float DeltaTime)
 
 void ABalaCanon::Mover()
 {
-	FVector NewLocation = GetActorLocation() + -GetActorForwardVector() * velocidad * GetWorld()->GetDeltaSeconds(); 
+	FVector NewLocation = GetActorLocation() + GetActorForwardVector() * velocidad * GetWorld()->GetDeltaSeconds(); 
 	SetActorLocation(NewLocation); 
+}
+
+void ABalaCanon::range(float _RangeExplosive)
+{
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, FString::Printf(TEXT("BOOM"), _RangeExplosive));
 }
 

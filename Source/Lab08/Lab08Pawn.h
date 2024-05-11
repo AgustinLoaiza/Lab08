@@ -77,10 +77,12 @@ public:
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 
 //Implemetamos las herramientas necesarios para nuestro adaptador
-private:
-	IExplosive* ExplosiveBoom;
+public:
+	//El arama adaptada debe ser de tipo IExplosive
+	class IExplosive* ExplosiveBoom;
 
 public:
+	//Establecemos el rango y el disparo de la bala
 	void Explosive() override;
 	void SetBalaCanon(AActor* _Arma);
 };

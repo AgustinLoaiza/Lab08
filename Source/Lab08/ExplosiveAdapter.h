@@ -5,7 +5,6 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Explosive.h"
-#include "BalaCanon.h"
 #include "ExplosiveAdapter.generated.h"
 
 UCLASS()
@@ -17,14 +16,20 @@ public:
 	// Sets default values for this actor's properties
 	AExplosiveAdapter();
 
-	ABalaCanon* BC;
+	
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+protected:
+	UPROPERTY(VisibleAnywhere, Category = "Bala Adapter")
+	class ABalaCanon* BC;
+public:
 	void Explosive() override;
 };

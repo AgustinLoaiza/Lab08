@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveAdapter() {}
 	LAB08_API UClass* Z_Construct_UClass_AExplosiveAdapter();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Lab08();
+	LAB08_API UClass* Z_Construct_UClass_ABalaCanon_NoRegister();
+	LAB08_API UClass* Z_Construct_UClass_UExplosive_NoRegister();
 // End Cross Module References
 	void AExplosiveAdapter::StaticRegisterNativesAExplosiveAdapter()
 	{
@@ -31,6 +33,12 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveAdapter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BC_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_BC;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -44,6 +52,19 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveAdapter() {}
 		{ "ModuleRelativePath", "ExplosiveAdapter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AExplosiveAdapter_Statics::NewProp_BC_MetaData[] = {
+		{ "Category", "Bala Adapter" },
+		{ "ModuleRelativePath", "ExplosiveAdapter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AExplosiveAdapter_Statics::NewProp_BC = { "BC", nullptr, (EPropertyFlags)0x0020080000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AExplosiveAdapter, BC), Z_Construct_UClass_ABalaCanon_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AExplosiveAdapter_Statics::NewProp_BC_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AExplosiveAdapter_Statics::NewProp_BC_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AExplosiveAdapter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AExplosiveAdapter_Statics::NewProp_BC,
+	};
+		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AExplosiveAdapter_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UExplosive_NoRegister, (int32)VTABLE_OFFSET(AExplosiveAdapter, IExplosive), false },
+		};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AExplosiveAdapter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AExplosiveAdapter>::IsAbstract,
 	};
@@ -53,12 +74,12 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveAdapter() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
-		nullptr,
+		Z_Construct_UClass_AExplosiveAdapter_Statics::PropPointers,
+		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_AExplosiveAdapter_Statics::PropPointers),
+		UE_ARRAY_COUNT(InterfaceParams),
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_AExplosiveAdapter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AExplosiveAdapter_Statics::Class_MetaDataParams))
 	};
@@ -71,7 +92,7 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveAdapter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AExplosiveAdapter, 365551941);
+	IMPLEMENT_CLASS(AExplosiveAdapter, 1417491957);
 	template<> LAB08_API UClass* StaticClass<AExplosiveAdapter>()
 	{
 		return AExplosiveAdapter::StaticClass();

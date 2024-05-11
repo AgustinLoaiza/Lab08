@@ -35,4 +35,5 @@ public:
 	FORCEINLINE void SetVelocidad(float _velocidad) { velocidad = _velocidad; }
 	//metodos de la clase
 	void Mover();
+	void range(float _rangeExplosive);
 };
