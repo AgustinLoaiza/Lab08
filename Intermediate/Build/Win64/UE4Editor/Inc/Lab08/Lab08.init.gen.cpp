@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeLab08_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x6588FB5A,
+				0x716BC833,
 				0xF4E7D7AE,
 				METADATA_PARAMS(nullptr, 0)
 			};

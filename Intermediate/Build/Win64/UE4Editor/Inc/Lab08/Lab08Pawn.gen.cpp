@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeLab08Pawn() {}
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
+	LAB08_API UClass* Z_Construct_UClass_UExplosive_NoRegister();
 // End Cross Module References
 	void ALab08Pawn::StaticRegisterNativesALab08Pawn()
 	{
@@ -65,6 +66,7 @@ void EmptyLinkFunctionForGeneratedCodeLab08Pawn() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FireSound;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -159,6 +161,9 @@ void EmptyLinkFunctionForGeneratedCodeLab08Pawn() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALab08Pawn_Statics::NewProp_MoveSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALab08Pawn_Statics::NewProp_FireSound,
 	};
+		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ALab08Pawn_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UExplosive_NoRegister, (int32)VTABLE_OFFSET(ALab08Pawn, IExplosive), false },
+		};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ALab08Pawn_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ALab08Pawn>::IsAbstract,
 	};
@@ -169,11 +174,11 @@ void EmptyLinkFunctionForGeneratedCodeLab08Pawn() {}
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_ALab08Pawn_Statics::PropPointers,
-		nullptr,
+		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_ALab08Pawn_Statics::PropPointers),
-		0,
+		UE_ARRAY_COUNT(InterfaceParams),
 		0x008000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ALab08Pawn_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ALab08Pawn_Statics::Class_MetaDataParams))
 	};
@@ -186,7 +191,7 @@ void EmptyLinkFunctionForGeneratedCodeLab08Pawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALab08Pawn, 3807275973);
+	IMPLEMENT_CLASS(ALab08Pawn, 409361081);
 	template<> LAB08_API UClass* StaticClass<ALab08Pawn>()
 	{
 		return ALab08Pawn::StaticClass();

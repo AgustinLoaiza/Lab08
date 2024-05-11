@@ -4,16 +4,20 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Explosive.h"
+#include "BalaCanon.h"
 #include "ExplosiveAdapter.generated.h"
 
 UCLASS()
-class LAB08_API AExplosiveAdapter : public AActor
+class LAB08_API AExplosiveAdapter : public AActor, public IExplosive
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
 	AExplosiveAdapter();
+
+	ABalaCanon* BC;
 
 protected:
 	// Called when the game starts or when spawned
@@ -22,5 +26,5 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+	void Explosive() override;
 };

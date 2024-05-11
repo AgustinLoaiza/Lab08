@@ -4,10 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Explosive.h"
 #include "Lab08Pawn.generated.h"
 
 UCLASS(Blueprintable)
-class ALab08Pawn : public APawn
+class ALab08Pawn : public APawn, public IExplosive
 {
 	GENERATED_BODY()
 
@@ -74,5 +75,13 @@ public:
 	FORCEINLINE class UCameraComponent* GetCameraComponent() const { return CameraComponent; }
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+
+//Implemetamos las herramientas necesarios para nuestro adaptador
+private:
+	IExplosive* ExplosiveBoom;
+
+public:
+	void Explosive() override;
+	void SetBalaCanon(AActor* _Arma);
 };
 

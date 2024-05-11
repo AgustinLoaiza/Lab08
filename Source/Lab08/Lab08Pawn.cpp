@@ -137,3 +137,16 @@ void ALab08Pawn::ShotTimerExpired()
 	bCanFire = true;
 }
 
+//Inicializamos nuestros metodos de nuestro adaptador
+void ALab08Pawn::SetBalaCanon(AActor* _Arma)
+{
+	ExplosiveBoom = Cast<IExplosive>(_Arma); //Hacemos un casteo para que el adaptador pueda acceder a los metodos de la clase
+}
+
+void ALab08Pawn::Explosive()
+{
+	ExplosiveBoom->Explosive();
+}
+
+
+

@@ -16,6 +16,7 @@ void AExplosiveAdapter::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	BC = GetWorld()->SpawnActor<ABalaCanon>(ABalaCanon::StaticClass());
 }
 
 // Called every frame
@@ -23,5 +24,10 @@ void AExplosiveAdapter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void AExplosiveAdapter::Explosive()
+{
+	BC->Mover();
 }
 
