@@ -1,0 +1,3 @@
+C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Development\Lab08\Definitions.Lab08.h
+C:\Users\User\Desktop\Adapter\Lab08\Source\Lab08\ExplosiveAdapter.h
+C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Inc\Lab08\ExplosiveAdapter.generated.h

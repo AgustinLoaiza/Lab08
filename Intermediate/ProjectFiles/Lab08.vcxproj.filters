@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Lab08.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{EEDC7FCD-57BC-4690-807F-67101520E51D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Lab08.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Lab08Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{F1DC8F35-1026-41FC-8D47-E6A18328DC7F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Lab08">
+      <UniqueIdentifier>{766FF37D-4C7C-4D04-AFAA-601EDFDA1055}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Lab08\BalaCanon.cpp">
+      <Filter>Source\Lab08</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab08\BalaCanon.h">
+      <Filter>Source\Lab08</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab08\Explosive.cpp">
+      <Filter>Source\Lab08</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab08\Explosive.h">
+      <Filter>Source\Lab08</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab08\ExplosiveAdapter.cpp">
+      <Filter>Source\Lab08</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab08\ExplosiveAdapter.h">
+      <Filter>Source\Lab08</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Lab08\Lab08.Build.cs">
+      <Filter>Source\Lab08</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Lab08\Lab08.cpp">
+      <Filter>Source\Lab08</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab08\Lab08.h">
+      <Filter>Source\Lab08</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab08\Lab08GameMode.cpp">
+      <Filter>Source\Lab08</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab08\Lab08GameMode.h">
+      <Filter>Source\Lab08</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab08\Lab08Pawn.cpp">
+      <Filter>Source\Lab08</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab08\Lab08Pawn.h">
+      <Filter>Source\Lab08</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab08\Lab08Projectile.cpp">
+      <Filter>Source\Lab08</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab08\Lab08Projectile.h">
+      <Filter>Source\Lab08</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
