@@ -2,6 +2,7 @@
 
 
 #include "LanzarAdapter.h"
+#include "Ball.h"
 
 // Sets default values
 ALanzarAdapter::ALanzarAdapter()
@@ -16,6 +17,7 @@ void ALanzarAdapter::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	ball = GetWorld()->SpawnActor<ABall>(ABall::StaticClass(), FVector(30.0f, 500.0f, 180.0f), FRotator::ZeroRotator);
 }
 
 // Called every frame
@@ -23,5 +25,14 @@ void ALanzarAdapter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void ALanzarAdapter::Lanzar()
+{
+	if (!ball) {
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, FString::Printf(TEXT("No se pudo spawnear a la clase extranjera")));
+		return;
+	}
+	ball->Launch();
 }
 

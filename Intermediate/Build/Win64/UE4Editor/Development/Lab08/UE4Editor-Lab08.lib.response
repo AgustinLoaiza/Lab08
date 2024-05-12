@@ -8,6 +8,7 @@
 /NODEFAULTLIB
 "C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\Lab08Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Development\Lab08\BalaCanon.cpp.obj"
+"C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Development\Lab08\Ball.cpp.obj"
 "C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Development\Lab08\Explosive.cpp.obj"
 "C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Development\Lab08\ExplosiveAdapter.cpp.obj"
 "C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Development\Lab08\Lab08.cpp.obj"
@@ -18,6 +19,7 @@
 "C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Development\Lab08\Lanzar.cpp.obj"
 "C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Development\Lab08\LanzarAdapter.cpp.obj"
 "C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Development\Lab08\BalaCanon.gen.cpp.obj"
+"C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Development\Lab08\Ball.gen.cpp.obj"
 "C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Development\Lab08\Explosive.gen.cpp.obj"
 "C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Development\Lab08\ExplosiveAdapter.gen.cpp.obj"
 "C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Development\Lab08\Lab08.init.gen.cpp.obj"

@@ -4,10 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Lanzar.h"
 #include "LanzarAdapter.generated.h"
 
 UCLASS()
-class LAB08_API ALanzarAdapter : public AActor
+class LAB08_API ALanzarAdapter : public AActor, public ILanzar
 {
 	GENERATED_BODY()
 	
@@ -23,4 +24,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+public:
+	UPROPERTY(VisibleAnywhere, Category = "Ball Adapter");
+	class ABall* ball;
+
+	void Lanzar() override;
 };

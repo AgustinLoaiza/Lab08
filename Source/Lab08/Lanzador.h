@@ -4,10 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Lanzar.h"
 #include "Lanzador.generated.h"
 
 UCLASS()
-class LAB08_API ALanzador : public AActor
+class LAB08_API ALanzador : public AActor, public ILanzar
 {
 	GENERATED_BODY() 
 	
@@ -22,5 +23,14 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+protected:
+	class ILanzar* LA;
+
+public:
+	UStaticMeshComponent* MallaLanzador;
+
+	void SetLanzador(AActor* _Adaptador);
+	void Lanzar() override;
 
 };

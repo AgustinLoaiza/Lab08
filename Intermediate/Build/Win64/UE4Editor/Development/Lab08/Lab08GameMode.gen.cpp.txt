@@ -18,4 +18,8 @@ C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Inc\Lab08
 C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Inc\Lab08\Lab08Pawn.generated.h
 C:\Users\User\Desktop\Adapter\Lab08\Source\Lab08\ExplosiveAdapter.h
 C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Inc\Lab08\ExplosiveAdapter.generated.h
+C:\Users\User\Desktop\Adapter\Lab08\Source\Lab08\Lanzador.h
+C:\Users\User\Desktop\Adapter\Lab08\Source\Lab08\Lanzar.h
+C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Inc\Lab08\Lanzar.generated.h
+C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Inc\Lab08\Lanzador.generated.h
 C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Inc\Lab08\Lab08GameMode.generated.h

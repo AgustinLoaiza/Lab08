@@ -19,6 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeLab08GameMode() {}
 	UPackage* Z_Construct_UPackage__Script_Lab08();
 	LAB08_API UClass* Z_Construct_UClass_ALab08Pawn_NoRegister();
 	LAB08_API UClass* Z_Construct_UClass_AExplosiveAdapter_NoRegister();
+	LAB08_API UClass* Z_Construct_UClass_ALanzador_NoRegister();
+	LAB08_API UClass* Z_Construct_UClass_ALanzarAdapter_NoRegister();
 // End Cross Module References
 	void ALab08GameMode::StaticRegisterNativesALab08GameMode()
 	{
@@ -41,6 +43,14 @@ void EmptyLinkFunctionForGeneratedCodeLab08GameMode() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Adaptador_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Adaptador;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Lanzador_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Lanzador;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Adaptador02_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Adaptador02;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -51,16 +61,20 @@ void EmptyLinkFunctionForGeneratedCodeLab08GameMode() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALab08GameMode_Statics::Class_MetaDataParams[] = {
+		{ "Comment", "//class ALanzador;\n" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 		{ "IncludePath", "Lab08GameMode.h" },
 		{ "ModuleRelativePath", "Lab08GameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
+		{ "ToolTip", "class ALanzador;" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Jugador_MetaData[] = {
 		{ "Category", "GameMode" },
+		{ "Comment", "//Primer Adaptador\n" },
 		{ "ModuleRelativePath", "Lab08GameMode.h" },
+		{ "ToolTip", "Primer Adaptador" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Jugador = { "Jugador", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALab08GameMode, Jugador), Z_Construct_UClass_ALab08Pawn_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Jugador_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Jugador_MetaData)) };
@@ -73,9 +87,27 @@ void EmptyLinkFunctionForGeneratedCodeLab08GameMode() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Adaptador = { "Adaptador", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALab08GameMode, Adaptador), Z_Construct_UClass_AExplosiveAdapter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Adaptador_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Adaptador_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Lanzador_MetaData[] = {
+		{ "Category", "Game mode" },
+		{ "Comment", "//Segundo Adaptador\n" },
+		{ "ModuleRelativePath", "Lab08GameMode.h" },
+		{ "ToolTip", "Segundo Adaptador" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Lanzador = { "Lanzador", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALab08GameMode, Lanzador), Z_Construct_UClass_ALanzador_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Lanzador_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Lanzador_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Adaptador02_MetaData[] = {
+		{ "Category", "Game mode" },
+		{ "ModuleRelativePath", "Lab08GameMode.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Adaptador02 = { "Adaptador02", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ALab08GameMode, Adaptador02), Z_Construct_UClass_ALanzarAdapter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Adaptador02_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Adaptador02_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALab08GameMode_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Jugador,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Adaptador,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Lanzador,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALab08GameMode_Statics::NewProp_Adaptador02,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ALab08GameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ALab08GameMode>::IsAbstract,
@@ -104,7 +136,7 @@ void EmptyLinkFunctionForGeneratedCodeLab08GameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALab08GameMode, 2001959772);
+	IMPLEMENT_CLASS(ALab08GameMode, 4152900044);
 	template<> LAB08_API UClass* StaticClass<ALab08GameMode>()
 	{
 		return ALab08GameMode::StaticClass();

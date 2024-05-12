@@ -16,6 +16,10 @@ C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Inc\Lab08
 C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Inc\Lab08\Lab08Pawn.generated.h
 C:\Users\User\Desktop\Adapter\Lab08\Source\Lab08\ExplosiveAdapter.h
 C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Inc\Lab08\ExplosiveAdapter.generated.h
+C:\Users\User\Desktop\Adapter\Lab08\Source\Lab08\Lanzador.h
+C:\Users\User\Desktop\Adapter\Lab08\Source\Lab08\Lanzar.h
+C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Inc\Lab08\Lanzar.generated.h
+C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Inc\Lab08\Lanzador.generated.h
 C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Inc\Lab08\Lab08GameMode.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
@@ -26,3 +30,5 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+C:\Users\User\Desktop\Adapter\Lab08\Source\Lab08\LanzarAdapter.h
+C:\Users\User\Desktop\Adapter\Lab08\Intermediate\Build\Win64\UE4Editor\Inc\Lab08\LanzarAdapter.generated.h
