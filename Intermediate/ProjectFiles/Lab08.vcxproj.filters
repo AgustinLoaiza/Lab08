@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Lab08.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EEDC7FCD-57BC-4690-807F-67101520E51D}</UniqueIdentifier>
+      <UniqueIdentifier>{E13FC44E-7E46-4918-A546-07172D9ADF35}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Lab08.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\Lab08Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F1DC8F35-1026-41FC-8D47-E6A18328DC7F}</UniqueIdentifier>
+      <UniqueIdentifier>{B8A9D589-090B-4B13-BB62-D0C45FCDB2BD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +32,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Lab08">
-      <UniqueIdentifier>{766FF37D-4C7C-4D04-AFAA-601EDFDA1055}</UniqueIdentifier>
+      <UniqueIdentifier>{15B89906-EC5C-4564-8364-F4000962D6F4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Lab08\BalaCanon.cpp">
       <Filter>Source\Lab08</Filter>
@@ -75,6 +77,24 @@
       <Filter>Source\Lab08</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Lab08\Lab08Projectile.h">
+      <Filter>Source\Lab08</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab08\Lanzador.cpp">
+      <Filter>Source\Lab08</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab08\Lanzador.h">
+      <Filter>Source\Lab08</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab08\Lanzar.cpp">
+      <Filter>Source\Lab08</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab08\Lanzar.h">
+      <Filter>Source\Lab08</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Lab08\LanzarAdapter.cpp">
+      <Filter>Source\Lab08</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Lab08\LanzarAdapter.h">
       <Filter>Source\Lab08</Filter>
     </ClInclude>
   </ItemGroup>
